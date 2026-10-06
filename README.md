@@ -7,4 +7,4 @@
 
 设计在 `d:\creator\FFrameGameDesign\动物园app`。
 
-2026-10-06 园景资源准备全了。图和坐标在 `game/bundles/ZooHome`，清单是 `scenery.json`。窗口和数值还没齐，场景还没接上，先不要在 FFrame 里播放。
+2026-10-06 园景图在 `game/bundles/ZooHome/res`，清单是 `scenery.json`。`ScZooHome` 按清单摆上 place 有值的 78 件，place 为空的 10 件不摆。窗口、数值和另外三张场景还没做。
