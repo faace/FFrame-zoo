@@ -1,12 +1,34 @@
-import { _decorator, assetManager, AssetManager, CCObjectFlags, JsonAsset, Node, Sprite, SpriteFrame, UITransform } from 'cc';
+import { _decorator, assetManager, AssetManager, CCObjectFlags, instantiate, JsonAsset, Node, Prefab, Sprite, SpriteFrame, UITransform } from 'cc';
 import { EDITOR, PREVIEW } from 'cc/env';
-import { GMScene, gm } from '../../../gmajor';
+import { GMScene, gm, gu, PfGMBtn, PfGMBtnSize, PfGMBtnTheme } from '../../../gmajor';
 
 const { ccclass, executeInEditMode } = _decorator;
 
 const editing = EDITOR && !PREVIEW;
 const DB = 'db://assets/game/bundles/ZooHome';
+const BTN_PREFAB = 'b8d4f2c1-5a3b-4e9f-8d22-7c6b9f3e5a81'; // assets/gmajor/ui/PfGMBtn.prefab
 const RETRY = 30; // 编辑器首次导入图之前多等几轮
+
+type HomeBtnName = 'pfBtnBoard' | 'pfBtnSign' | 'pfBtnScenery' | 'pfBtnTown' | 'pfBtnAd' | 'pfBtnSetting';
+
+type HomeBtn = {
+    name: HomeBtnName;
+    text: string;
+    x: number;
+    y: number;
+    size?: PfGMBtnSize; // 缺省大档
+    theme?: PfGMBtnTheme; // 缺省 primary
+};
+
+// 进入棋盘在底边居中。其余靠右，从上往下：签到、园景素材、小镇、广告任务、设置
+const HOME_BTNS: HomeBtn[] = [
+    { name: 'pfBtnBoard', text: '进入棋盘', x: 0, y: -564 },
+    { name: 'pfBtnSign', text: '签到', x: 214, y: 580, size: PfGMBtnSize.medium, theme: PfGMBtnTheme.secondary },
+    { name: 'pfBtnScenery', text: '园景素材', x: 214, y: 476, size: PfGMBtnSize.medium },
+    { name: 'pfBtnTown', text: '小镇', x: 214, y: 372, size: PfGMBtnSize.medium, theme: PfGMBtnTheme.secondary },
+    { name: 'pfBtnAd', text: '广告任务', x: 214, y: 268, size: PfGMBtnSize.medium, theme: PfGMBtnTheme.warning },
+    { name: 'pfBtnSetting', text: '设置', x: 214, y: 164, size: PfGMBtnSize.medium, theme: PfGMBtnTheme.secondary },
+];
 
 type Piece = {
     id: string;
@@ -167,6 +189,11 @@ function dontSave(node: Node): void {
     for (const child of node.children) dontSave(child);
 }
 
+function followLayer(node: Node, layer: number): void {
+    node.layer = layer;
+    for (const child of node.children) followLayer(child, layer);
+}
+
 function queryUuid(url: string, done: (uuid: string | null) => void): void {
     const editor = (globalThis as { Editor?: EditorHost }).Editor;
     const request = editor?.Message?.request;
@@ -177,18 +204,25 @@ function queryUuid(url: string, done: (uuid: string | null) => void): void {
     );
 }
 
-/** 园子。开场背景和 place 有值的贴纸按 scenery.json 的 cocos、anchor 摆。place 为空的不摆 */
+/** 园子。开场背景和 place 有值的贴纸按 scenery.json 的 cocos、anchor 摆。place 为空的不摆。六个入口先能点，回调留空 */
 @ccclass('ScZooHome')
 @executeInEditMode(true)
 export class ScZooHome extends GMScene {
     private token = 0;
     private seen = 0; // 编辑器里已经摆上的张数，变多才重摆
+    private pfBtnBoard: Node | null = null; // 进入棋盘
+    private pfBtnSign: Node | null = null; // 签到
+    private pfBtnScenery: Node | null = null; // 园景素材
+    private pfBtnTown: Node | null = null; // 小镇
+    private pfBtnAd: Node | null = null; // 广告任务
+    private pfBtnSetting: Node | null = null; // 设置
 
     onInit(): void {
         const canvas = this.node.scene?.getChildByName('Canvas');
         if (!canvas) return console.error('[ScZooHome] 没有 Canvas');
         const token = ++this.token;
         this.seen = 0;
+        this.placeButtons(canvas, token);
         if (editing) this.loadEditor(canvas, token, 0);
         else if (cached) place(canvas, cached.scenery, cached.frames, true);
         else preloadZoo((err) => {
@@ -196,6 +230,46 @@ export class ScZooHome extends GMScene {
             if (err || !cached) return console.error('[ScZooHome] 园景失败', err);
             place(canvas, cached.scenery, cached.frames, true);
         });
+    }
+
+    /** 六个入口叠在园景上。编辑器里也能看见；只有播放才注册点击 */
+    private placeButtons(canvas: Node, token: number): void {
+        assetManager.loadAny({ uuid: BTN_PREFAB }, (err: Error | null, prefab: Prefab) => {
+            if (token !== this.token || !this.isValid) return;
+            if (err || !prefab) return console.error('[ScZooHome] 没有 PfGMBtn', err);
+            this.mountButtons(canvas, prefab);
+        });
+    }
+
+    private mountButtons(canvas: Node, prefab: Prefab): void {
+        const old = canvas.getChildByName('home');
+        if (old) {
+            old.removeFromParent();
+            old.destroy();
+        }
+        const home = new Node('home');
+        home.layer = canvas.layer;
+        canvas.addChild(home);
+        for (const spec of HOME_BTNS) {
+            const node = instantiate(prefab);
+            node.name = spec.name;
+            const btn = node.getComponent(PfGMBtn);
+            if (!btn) {
+                node.destroy();
+                console.error('[ScZooHome] PfGMBtn 缺少脚本', spec.name);
+                continue;
+            }
+            if (spec.size !== undefined) btn.setSize(spec.size);
+            if (spec.theme !== undefined) btn.setTheme(spec.theme);
+            btn.setText(spec.text);
+            node.setPosition(spec.x, spec.y, 0);
+            home.addChild(node);
+            followLayer(node, home.layer);
+            this[spec.name] = node;
+            if (!editing) gu.addClick(node, () => {}); // 不进棋盘、不弹窗、不写数值
+        }
+        dontSave(home);
+        console.info('[ScZooHome] 按钮', home.children.length);
     }
 
     /** 编辑器里按 db 路径取图，不进播放也能看见 */
