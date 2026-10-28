@@ -6,7 +6,7 @@ const { ccclass, executeInEditMode } = _decorator;
 
 const editing = EDITOR && !PREVIEW;
 const DB = 'db://assets/game/bundles/ZooHome';
-const BTN_PREFAB = 'b8d4f2c1-5a3b-4e9f-8d22-7c6b9f3e5a81'; // gmajor/ui/PfGMBtn.prefab
+const BTN_PREFAB = 'b8d4f2c1-5a3b-4e9f-8d22-7c6b9f3e5a81'; // gmajor/prefabs/PfGMBtn.prefab（Bundle GMUI）
 const RETRY = 30; // 编辑器首次导入图之前多等几轮
 
 type HomeBtnName = 'pfBtnBoard' | 'pfBtnSign' | 'pfBtnScenery' | 'pfBtnTown' | 'pfBtnAd' | 'pfBtnSetting';

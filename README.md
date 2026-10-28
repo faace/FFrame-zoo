@@ -16,7 +16,7 @@ D:\creator\
 ## 目录
 
 ```
-assets/game/            游戏：ScMain、config.ts、bundles/ZooHome
+assets/game/            游戏：ScMain、config.ts、bundles/ZooHome、bundles/Skin
 extensions/gmajor/      把 ../FFrame/gmajor 挂成 db://gmajor（只读）
 策划/                   策划文档（原在 FFrame 仓库根，已迁入，历史留在 FFrame）
 资源生成/               提示词、母图、拆件、导出脚本。Cocos 不读，不入库
@@ -31,3 +31,5 @@ del/                    临时文件，已忽略
 设计在 `d:\creator\FFrameGameDesign\动物园app`。
 
 2026-10-06 园景图在 `assets/game/bundles/ZooHome/res`，清单是 `scenery.json`。`ScZooHome` 按清单摆上 place 有值的 78 件，place 为空的 10 件不摆。窗口、数值和另外三张场景还没做。
+
+界面图 `bundles/Skin` 最初是从 FFrame demo 的 `assets/game/bundles/Skin` 整个复制来的，连同 `.meta`（uuid 相同）。之后在这里自己改图，文件名和 uuid 保持不变。demo 的图以后再变，不会自动同步过来。
