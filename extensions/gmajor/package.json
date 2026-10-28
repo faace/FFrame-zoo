@@ -1,0 +1,14 @@
+{
+  "package_version": 2,
+  "name": "gmajor",
+  "version": "0.5.0",
+  "description": "gmajor 框架：把兄弟目录 FFrame/gmajor 挂成只读资源库 db://gmajor",
+  "contributions": {
+    "asset-db": {
+      "mount": {
+        "path": "../../../FFrame/gmajor",
+        "readonly": true
+      }
+    }
+  }
+}

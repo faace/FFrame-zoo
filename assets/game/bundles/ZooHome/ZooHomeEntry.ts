@@ -1,4 +1,4 @@
-import { GMBindContext, GMBundleEntryBase, gu, registerBundleEntry } from '../../../gmajor';
+import { GMBindContext, GMBundleEntryBase, gu, registerBundleEntry } from 'db://gmajor/index';
 import { preloadZoo } from './ScZooHome';
 
 /** web 入口：园景进内存后打开园子 */

@@ -1,5 +1,5 @@
 import { _decorator } from 'cc';
-import { GMScene, gm, gp } from '../gmajor';
+import { GMScene, gm, gp } from 'db://gmajor/index';
 import { config } from './config';
 
 const { ccclass } = _decorator;

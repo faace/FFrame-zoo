@@ -1,0 +1,16 @@
+---
+description: FFrame-zoo 工程总览：目录、引用框架的方式、规则来源。任何时候都适用
+alwaysApply: true
+---
+
+# FFrame-zoo
+
+动物园 app。它是自己的 Creator 工程，框架 `FFrame/gmajor` 是被引用的只读资源库。
+
+- 用多根工作区 `FFrame-zoo.code-workspace` 打开：同时带上 `../FFrame`，**框架约定在 `FFrame/.cursor/rules/`**（命名、双基类、数据与事件、TypeScript 风格、异步回调、`del/` 的用法等），写代码前先按那边的规则。
+- 脚本引用框架只写 `import { ... } from 'db://gmajor/index'`，不写 `'../gmajor'`。
+- `db://gmajor` 在这里是只读。要改框架，去 `FFrame/gmajor/` 改并提交到 FFrame；改了破坏项要升 `gm.version` 并写 `FFrame/CHANGELOG.md`。
+- 游戏代码在 `assets/game/`（`ScMain`、`config.ts`、`bundles/ZooHome` …）。
+- 策划文档在 `策划/`。`资源生成/` 是提示词、母图和脚本，Cocos 不读，已被 git 忽略。
+- 临时文件、测试代码、一次性脚本放 `del/`（已忽略，在 `assets/` 之外），不要散落在别处。
+- 动物园自己的业务约定（命名、策划取舍）写在本目录下的其他规则里；暂无。

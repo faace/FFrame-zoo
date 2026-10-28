@@ -1,0 +1,6 @@
+{
+  "folders": [
+    { "path": ".", "name": "FFrame-zoo（app）" },
+    { "path": "../FFrame", "name": "FFrame（框架）" }
+  ]
+}
