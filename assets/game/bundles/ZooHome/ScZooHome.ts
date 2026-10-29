@@ -34,7 +34,8 @@ type Piece = {
     id: string;
     file: string;
     layer: string;
-    order: number;
+    order: number; // 同层绘制先后，决定遮挡
+    queueIndex?: number; // 建设顺序，1—86；与 order 相互独立
     place: string | null;
     png?: [number, number];
     anchor: [number, number];

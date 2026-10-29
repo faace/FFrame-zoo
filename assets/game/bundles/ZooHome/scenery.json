@@ -175,7 +175,8 @@
         "scale": 0.464
       },
       "note": "这一区用同一个倍数 0.928。脚点是母图上不透明区域的底边中心。",
-      "order": 1
+      "order": 1,
+      "queueIndex": 1
     },
     {
       "id": "SouthGate/ticket_booth_01",
@@ -222,7 +223,8 @@
         "scale": 0.464
       },
       "note": "这一区用同一个倍数 0.928。脚点是母图上不透明区域的底边中心。",
-      "order": 2
+      "order": 2,
+      "queueIndex": 2
     },
     {
       "id": "SouthGate/info_booth_01",
@@ -269,7 +271,8 @@
         "scale": 0.464
       },
       "note": "这一区用同一个倍数 0.928。脚点是母图上不透明区域的底边中心。",
-      "order": 3
+      "order": 3,
+      "queueIndex": 3
     },
     {
       "id": "SouthGate/balloon_left_01",
@@ -316,7 +319,8 @@
         "scale": 0.464
       },
       "note": "这一区用同一个倍数 0.928。脚点是母图上不透明区域的底边中心。",
-      "order": 4
+      "order": 4,
+      "queueIndex": 4
     },
     {
       "id": "SouthGate/balloon_right_01",
@@ -363,7 +367,8 @@
         "scale": 0.464
       },
       "note": "这一区用同一个倍数 0.928。脚点是母图上不透明区域的底边中心。",
-      "order": 5
+      "order": 5,
+      "queueIndex": 5
     },
     {
       "id": "SouthGate/visitor_ticket_blue_01",
@@ -410,7 +415,8 @@
         "scale": 0.464
       },
       "note": "这一区用同一个倍数 0.928。脚点是母图上不透明区域的底边中心。",
-      "order": 6
+      "order": 6,
+      "queueIndex": 6
     },
     {
       "id": "SouthGate/visitor_ticket_red_01",
@@ -457,7 +463,8 @@
         "scale": 0.464
       },
       "note": "这一区用同一个倍数 0.928。脚点是母图上不透明区域的底边中心。",
-      "order": 7
+      "order": 7,
+      "queueIndex": 7
     },
     {
       "id": "SouthGate/visitor_arch_pair_01",
@@ -504,7 +511,8 @@
         "scale": 0.464
       },
       "note": "这一区用同一个倍数 0.928。脚点是母图上不透明区域的底边中心。",
-      "order": 8
+      "order": 8,
+      "queueIndex": 8
     },
     {
       "id": "SouthGate/guard_arch_01",
@@ -551,7 +559,8 @@
         "scale": 0.464
       },
       "note": "这一区用同一个倍数 0.928。脚点是母图上不透明区域的底边中心。",
-      "order": 9
+      "order": 9,
+      "queueIndex": 9
     },
     {
       "id": "SouthGate/visitor_info_family_01",
@@ -598,7 +607,8 @@
         "scale": 0.464
       },
       "note": "这一区用同一个倍数 0.928。脚点是母图上不透明区域的底边中心。",
-      "order": 10
+      "order": 10,
+      "queueIndex": 10
     },
     {
       "id": "Panda/habitat",
@@ -646,7 +656,8 @@
         "scale": 0.5
       },
       "note": "整张场地。左上角对齐 masterBox。图的像素就是裁图像素。",
-      "order": 11
+      "order": 11,
+      "queueIndex": 69
     },
     {
       "id": "Panda/house_01",
@@ -693,7 +704,8 @@
         "scale": 0.5405
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 12
+      "order": 12,
+      "queueIndex": 70
     },
     {
       "id": "Panda/panda_left_01",
@@ -740,7 +752,8 @@
         "scale": 0.4275
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 13
+      "order": 13,
+      "queueIndex": 86
     },
     {
       "id": "Panda/panda_right_01",
@@ -787,7 +800,8 @@
         "scale": 0.4335
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 14
+      "order": 14,
+      "queueIndex": 71
     },
     {
       "id": "Panda/panda_small_01",
@@ -834,7 +848,8 @@
         "scale": 0.378
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 15
+      "order": 15,
+      "queueIndex": 72
     },
     {
       "id": "Panda/sign_panda_01",
@@ -881,7 +896,8 @@
         "scale": 0.504
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 16
+      "order": 16,
+      "queueIndex": 73
     },
     {
       "id": "Panda/sign_small_01",
@@ -928,7 +944,8 @@
         "scale": 0.504
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 17
+      "order": 17,
+      "queueIndex": 75
     },
     {
       "id": "Panda/bench_01",
@@ -975,7 +992,8 @@
         "scale": 0.5
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 18
+      "order": 18,
+      "queueIndex": 76
     },
     {
       "id": "Panda/fountain_01",
@@ -1022,7 +1040,8 @@
         "scale": 0.403
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 19
+      "order": 19,
+      "queueIndex": 78
     },
     {
       "id": "Panda/lamp_01",
@@ -1069,7 +1088,8 @@
         "scale": 0.375
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 20
+      "order": 20,
+      "queueIndex": 79
     },
     {
       "id": "Panda/person_sit_01",
@@ -1116,7 +1136,8 @@
         "scale": 0.2705
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 21
+      "order": 21,
+      "queueIndex": 81
     },
     {
       "id": "Panda/visitor_front_01",
@@ -1163,7 +1184,8 @@
         "scale": 0.34
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 22
+      "order": 22,
+      "queueIndex": 82
     },
     {
       "id": "Panda/visitor_cap_01",
@@ -1210,7 +1232,8 @@
         "scale": 0.332
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 23
+      "order": 23,
+      "queueIndex": 84
     },
     {
       "id": "Savannah/habitat",
@@ -1258,7 +1281,8 @@
         "scale": 0.5
       },
       "note": "整张场地。左上角对齐 masterBox。图的像素就是裁图像素。",
-      "order": 24
+      "order": 24,
+      "queueIndex": 54
     },
     {
       "id": "Savannah/giraffe_01",
@@ -1305,7 +1329,8 @@
         "scale": 0.352
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 25
+      "order": 25,
+      "queueIndex": 55
     },
     {
       "id": "Savannah/elephant_01",
@@ -1352,7 +1377,8 @@
         "scale": 0.3525
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 26
+      "order": 26,
+      "queueIndex": 56
     },
     {
       "id": "Savannah/feeder_01",
@@ -1399,7 +1425,8 @@
         "scale": 0.3765
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 27
+      "order": 27,
+      "queueIndex": 57
     },
     {
       "id": "Savannah/hay_01",
@@ -1446,7 +1473,8 @@
         "scale": 0.3335
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 28
+      "order": 28,
+      "queueIndex": 58
     },
     {
       "id": "Savannah/basin_01",
@@ -1493,7 +1521,8 @@
         "scale": 0.302
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 29
+      "order": 29,
+      "queueIndex": 59
     },
     {
       "id": "Savannah/sign_giraffe_01",
@@ -1540,7 +1569,8 @@
         "scale": 0.3005
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 30
+      "order": 30,
+      "queueIndex": 60
     },
     {
       "id": "Savannah/sign_elephant_01",
@@ -1587,7 +1617,8 @@
         "scale": 0.3005
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 31
+      "order": 31,
+      "queueIndex": 61
     },
     {
       "id": "Savannah/bench_01",
@@ -1634,7 +1665,8 @@
         "scale": 0.2725
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 32
+      "order": 32,
+      "queueIndex": 62
     },
     {
       "id": "Savannah/lamp_upper_01",
@@ -1681,7 +1713,8 @@
         "scale": 0.35
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 33
+      "order": 33,
+      "queueIndex": 63
     },
     {
       "id": "Savannah/lamp_lower_01",
@@ -1728,7 +1761,8 @@
         "scale": 0.35
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 34
+      "order": 34,
+      "queueIndex": 64
     },
     {
       "id": "Savannah/visitor_back_01",
@@ -1775,7 +1809,8 @@
         "scale": 0.39
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 35
+      "order": 35,
+      "queueIndex": 65
     },
     {
       "id": "Savannah/visitor_blue_01",
@@ -1822,7 +1857,8 @@
         "scale": 0.345
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 36
+      "order": 36,
+      "queueIndex": 66
     },
     {
       "id": "Savannah/visitor_pair_01",
@@ -1869,7 +1905,8 @@
         "scale": 0.375
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 37
+      "order": 37,
+      "queueIndex": 67
     },
     {
       "id": "Savannah/visitor_bald_01",
@@ -1916,7 +1953,8 @@
         "scale": 0.3665
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 38
+      "order": 38,
+      "queueIndex": 68
     },
     {
       "id": "IceBay/habitat",
@@ -1964,7 +2002,8 @@
         "scale": 0.5
       },
       "note": "整张场地。左上角对齐 masterBox。图的像素就是裁图像素。",
-      "order": 39
+      "order": 39,
+      "queueIndex": 45
     },
     {
       "id": "IceBay/penguin_left_01",
@@ -2011,7 +2050,8 @@
         "scale": 0.2965
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 40
+      "order": 40,
+      "queueIndex": 46
     },
     {
       "id": "IceBay/penguin_right_01",
@@ -2058,7 +2098,8 @@
         "scale": 0.283
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 41
+      "order": 41,
+      "queueIndex": 47
     },
     {
       "id": "IceBay/penguin_low_01",
@@ -2105,7 +2146,8 @@
         "scale": 0.279
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 42
+      "order": 42,
+      "queueIndex": 48
     },
     {
       "id": "IceBay/monkey_left_01",
@@ -2152,7 +2194,8 @@
         "scale": 0.3045
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 43
+      "order": 43,
+      "queueIndex": 49
     },
     {
       "id": "IceBay/monkey_right_01",
@@ -2199,7 +2242,8 @@
         "scale": 0.3025
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 44
+      "order": 44,
+      "queueIndex": 50
     },
     {
       "id": "IceBay/sign_01",
@@ -2246,7 +2290,8 @@
         "scale": 0.4785
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 45
+      "order": 45,
+      "queueIndex": 51
     },
     {
       "id": "IceBay/duck_01",
@@ -2293,7 +2338,8 @@
         "scale": 0.3335
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 46
+      "order": 46,
+      "queueIndex": 52
     },
     {
       "id": "IceBay/bench_01",
@@ -2340,7 +2386,8 @@
         "scale": 0.3595
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 47
+      "order": 47,
+      "queueIndex": 53
     },
     {
       "id": "PetVillage/habitat",
@@ -2387,7 +2434,8 @@
         "scale": 0.518
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 48
+      "order": 48,
+      "queueIndex": 11
     },
     {
       "id": "PetVillage/rabbit_01",
@@ -2434,7 +2482,8 @@
         "scale": 0.5385
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 49
+      "order": 49,
+      "queueIndex": 12
     },
     {
       "id": "PetVillage/duck_01",
@@ -2481,7 +2530,8 @@
         "scale": 0.515
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 50
+      "order": 50,
+      "queueIndex": 13
     },
     {
       "id": "PetVillage/sheep_01",
@@ -2528,7 +2578,8 @@
         "scale": 0.492
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 51
+      "order": 51,
+      "queueIndex": 14
     },
     {
       "id": "PetVillage/hay_01",
@@ -2575,7 +2626,8 @@
         "scale": 0.5
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 52
+      "order": 52,
+      "queueIndex": 15
     },
     {
       "id": "PetVillage/bush_01",
@@ -2622,7 +2674,8 @@
         "scale": 0.4435
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 53
+      "order": 53,
+      "queueIndex": 16
     },
     {
       "id": "PetVillage/sign_01",
@@ -2669,7 +2722,8 @@
         "scale": 0.5135
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 54
+      "order": 54,
+      "queueIndex": 17
     },
     {
       "id": "PetVillage/bench_01",
@@ -2716,7 +2770,8 @@
         "scale": 0.307
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 55
+      "order": 55,
+      "queueIndex": 18
     },
     {
       "id": "PetVillage/lamp_01",
@@ -2763,7 +2818,8 @@
         "scale": 0.375
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 56
+      "order": 56,
+      "queueIndex": 19
     },
     {
       "id": "PetVillage/person_sit_01",
@@ -2810,7 +2866,8 @@
         "scale": 0.4235
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 57
+      "order": 57,
+      "queueIndex": 20
     },
     {
       "id": "PetVillage/basin_01",
@@ -2837,7 +2894,8 @@
         0.1798
       ],
       "note": "栏里的小木盆。参照里没有脚点。",
-      "order": 58
+      "order": 58,
+      "queueIndex": 21
     },
     {
       "id": "Flamingo/habitat",
@@ -2891,7 +2949,8 @@
         0.0275
       ],
       "note": "图在，参照里没有脚点。",
-      "order": 60
+      "order": 60,
+      "queueIndex": 29
     },
     {
       "id": "Flamingo/flamingo_top_01",
@@ -2938,7 +2997,8 @@
         "scale": 0.4625
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 61
+      "order": 61,
+      "queueIndex": 30
     },
     {
       "id": "Flamingo/flamingo_right_01",
@@ -2985,7 +3045,8 @@
         "scale": 0.437
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 62
+      "order": 62,
+      "queueIndex": 31
     },
     {
       "id": "Flamingo/flamingo_left_01",
@@ -3032,7 +3093,8 @@
         "scale": 0.468
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 63
+      "order": 63,
+      "queueIndex": 32
     },
     {
       "id": "Flamingo/flamingo_low_01",
@@ -3079,7 +3141,8 @@
         "scale": 0.505
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 64
+      "order": 64,
+      "queueIndex": 33
     },
     {
       "id": "Flamingo/flamingo_sign_01",
@@ -3106,7 +3169,8 @@
         0.106
       ],
       "note": "图在，参照里没有脚点。",
-      "order": 65
+      "order": 65,
+      "queueIndex": 34
     },
     {
       "id": "Flamingo/umbrella_01",
@@ -3133,7 +3197,8 @@
         0.0361
       ],
       "note": "图在，参照里没有脚点。",
-      "order": 66
+      "order": 66,
+      "queueIndex": 35
     },
     {
       "id": "Flamingo/table_01",
@@ -3160,7 +3225,8 @@
         0.0486
       ],
       "note": "图在，参照里没有脚点。",
-      "order": 67
+      "order": 67,
+      "queueIndex": 36
     },
     {
       "id": "Flamingo/chair_left_01",
@@ -3187,7 +3253,8 @@
         0.0491
       ],
       "note": "图在，参照里没有脚点。",
-      "order": 68
+      "order": 68,
+      "queueIndex": 37
     },
     {
       "id": "Flamingo/chair_right_01",
@@ -3214,7 +3281,8 @@
         0.0491
       ],
       "note": "图在，参照里没有脚点。",
-      "order": 69
+      "order": 69,
+      "queueIndex": 38
     },
     {
       "id": "Flamingo/bench_01",
@@ -3241,7 +3309,8 @@
         0.053
       ],
       "note": "图在，参照里没有脚点。",
-      "order": 70
+      "order": 70,
+      "queueIndex": 39
     },
     {
       "id": "Flamingo/lamp_01",
@@ -3268,7 +3337,8 @@
         0.069
       ],
       "note": "图在，参照里没有脚点。",
-      "order": 71
+      "order": 71,
+      "queueIndex": 40
     },
     {
       "id": "Kiosk/house_01",
@@ -3315,7 +3385,8 @@
         "scale": 0.4235
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 72
+      "order": 72,
+      "queueIndex": 22
     },
     {
       "id": "Kiosk/popcorn_01",
@@ -3362,7 +3433,8 @@
         "scale": 0.439
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 73
+      "order": 73,
+      "queueIndex": 23
     },
     {
       "id": "Kiosk/chair_left_01",
@@ -3409,7 +3481,8 @@
         "scale": 0.389
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 74
+      "order": 74,
+      "queueIndex": 24
     },
     {
       "id": "Kiosk/chair_right_01",
@@ -3456,7 +3529,8 @@
         "scale": 0.392
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 75
+      "order": 75,
+      "queueIndex": 25
     },
     {
       "id": "Kiosk/sign_01",
@@ -3503,7 +3577,8 @@
         "scale": 0.363
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 76
+      "order": 76,
+      "queueIndex": 26
     },
     {
       "id": "Kiosk/visitor_pair_01",
@@ -3550,7 +3625,8 @@
         "scale": 0.3125
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 77
+      "order": 77,
+      "queueIndex": 27
     },
     {
       "id": "Kiosk/lamp_01",
@@ -3597,7 +3673,8 @@
         "scale": 0.37
       },
       "note": "这一区各件高度差超过 1.15，按各自的母图高度贴。脚点是底边中心。",
-      "order": 78
+      "order": 78,
+      "queueIndex": 28
     },
     {
       "id": "Souvenir/house_01",
@@ -3644,7 +3721,8 @@
         "scale": 0.466
       },
       "note": "这一区用同一个倍数 0.932。脚点是母图上不透明区域的底边中心。",
-      "order": 79
+      "order": 79,
+      "queueIndex": 41
     },
     {
       "id": "Souvenir/balloon_01",
@@ -3691,7 +3769,8 @@
         "scale": 0.466
       },
       "note": "这一区用同一个倍数 0.932。脚点是母图上不透明区域的底边中心。",
-      "order": 80
+      "order": 80,
+      "queueIndex": 42
     },
     {
       "id": "Souvenir/sign_01",
@@ -3738,7 +3817,8 @@
         "scale": 0.466
       },
       "note": "这一区用同一个倍数 0.932。脚点是母图上不透明区域的底边中心。",
-      "order": 81
+      "order": 81,
+      "queueIndex": 43
     },
     {
       "id": "Souvenir/visitor_pair_01",
@@ -3785,7 +3865,8 @@
         "scale": 0.466
       },
       "note": "这一区用同一个倍数 0.932。脚点是母图上不透明区域的底边中心。",
-      "order": 82
+      "order": 82,
+      "queueIndex": 44
     },
     {
       "id": "MainRoad/bench_left_01",
@@ -3832,7 +3913,8 @@
         "scale": 0.3545
       },
       "note": "这一区用同一个倍数 0.709。脚点是母图上不透明区域的底边中心。",
-      "order": 83
+      "order": 83,
+      "queueIndex": 74
     },
     {
       "id": "MainRoad/bench_right_01",
@@ -3879,7 +3961,8 @@
         "scale": 0.3545
       },
       "note": "这一区用同一个倍数 0.709。脚点是母图上不透明区域的底边中心。",
-      "order": 84
+      "order": 84,
+      "queueIndex": 77
     },
     {
       "id": "MainRoad/lamp_upper_01",
@@ -3926,7 +4009,8 @@
         "scale": 0.3545
       },
       "note": "这一区用同一个倍数 0.709。脚点是母图上不透明区域的底边中心。",
-      "order": 85
+      "order": 85,
+      "queueIndex": 80
     },
     {
       "id": "MainRoad/lamp_lower_01",
@@ -3973,7 +4057,8 @@
         "scale": 0.3545
       },
       "note": "这一区用同一个倍数 0.709。脚点是母图上不透明区域的底边中心。",
-      "order": 86
+      "order": 86,
+      "queueIndex": 83
     },
     {
       "id": "MainRoad/visitor_pair_01",
@@ -4020,7 +4105,8 @@
         "scale": 0.3545
       },
       "note": "这一区用同一个倍数 0.709。脚点是母图上不透明区域的底边中心。",
-      "order": 87
+      "order": 87,
+      "queueIndex": 85
     }
   ]
 }
