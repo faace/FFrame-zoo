@@ -1,6 +1,8 @@
 import { _decorator, assetManager, AssetManager, CCObjectFlags, instantiate, JsonAsset, Node, Prefab, Sprite, SpriteFrame, UITransform } from 'cc';
 import { EDITOR, PREVIEW } from 'cc/env';
 import { GMScene, gm, gu, PfGMBtn, PfGMBtnSize, PfGMBtnTheme } from 'db://gmajor/index';
+import { HomeHudView, mountHud } from './HomeHud';
+import { preloadZooFont } from './ZooFont';
 
 const { ccclass, executeInEditMode } = _decorator;
 
@@ -32,6 +34,13 @@ const HOME_BTNS: HomeBtn[] = [
     { name: 'pfBtnAd', text: '广告累计', x: -210, y: 460, size: PfGMBtnSize.medium, theme: PfGMBtnTheme.warning },
     { name: 'pfBtnSetting', text: '设置', x: -210, y: 360, size: PfGMBtnSize.medium, theme: PfGMBtnTheme.secondary },
 ];
+
+/** 按钮 → 弹窗。没列出的按钮暂时空回调 */
+const BTN_LAYER: Partial<Record<HomeBtnName, string>> = {
+    pfBtnSign: 'LySignIn',
+    pfBtnAd: 'LyAdReward',
+    pfBtnSetting: 'LySetting',
+};
 
 type Piece = {
     id: string;
@@ -220,13 +229,17 @@ export class ScZooHome extends GMScene {
     private pfBtnTown: Node | null = null; // 小镇
     private pfBtnAd: Node | null = null; // 广告任务
     private pfBtnSetting: Node | null = null; // 设置
+    private hud: HomeHudView | null = null;
 
     onInit(): void {
         const canvas = this.node.scene?.getChildByName('Canvas');
         if (!canvas) return console.error('[ScZooHome] 没有 Canvas');
         const token = ++this.token;
         this.seen = 0;
-        this.placeButtons(canvas, token);
+        preloadZooFont(() => {
+            if (token !== this.token || !this.isValid) return;
+            this.placeButtons(canvas, token);
+        });
         if (editing) this.loadEditor(canvas, token, 0);
         else if (cached) place(canvas, cached.scenery, cached.frames, true);
         else preloadZoo((err) => {
@@ -270,8 +283,20 @@ export class ScZooHome extends GMScene {
             home.addChild(node);
             followLayer(node, home.layer);
             this[spec.name] = node;
-            if (!editing) gu.addClick(node, () => {}); // 不进棋盘、不弹窗、不写数值
+            if (!editing) {
+                const layer = BTN_LAYER[spec.name];
+                gu.addClick(node, () => {
+                    if (!layer) return;
+                    gu.showLayer(layer, { bundle: 'ZooHome' }, (err: Error | null) => {
+                        if (err) console.error('[ScZooHome] 打开弹窗失败', layer, err.message);
+                    });
+                });
+            }
         }
+        this.hud = mountHud(home, canvas, () => {}); // 先给占位数，数据层接上再刷
+        this.hud.setEnergy(100, 100);
+        this.hud.setBuild(0, 86);
+        this.hud.setMaterial(0);
         dontSave(home);
         console.info('[ScZooHome] 按钮', home.children.length);
     }
