@@ -20,14 +20,17 @@ type HomeBtn = {
     theme?: PfGMBtnTheme; // 缺省 primary
 };
 
-// 进入棋盘在底边居中。其余靠右，从上往下：签到、园景素材、小镇、广告任务、设置
+// 布局按框架按钮档位的实际尺寸排：大档 380×120，中档 260×88（medium 是最小档，
+// 策划案设想的 56 宽图标钮做不到）。画布 720×1280，原点在中心，可见范围 x −360~360、y −640~640。
+// 功能钮竖排在左侧并尽量靠上：园景顶部 y −640~−480（图像坐标 0~160）元素最少，遮挡最小。
+// 底部：进入合成大档居中，小镇与建设中档并排。
 const HOME_BTNS: HomeBtn[] = [
-    { name: 'pfBtnBoard', text: '进入棋盘', x: 0, y: -564 },
-    { name: 'pfBtnSign', text: '签到', x: 214, y: 580, size: PfGMBtnSize.medium, theme: PfGMBtnTheme.secondary },
-    { name: 'pfBtnScenery', text: '园景素材', x: 214, y: 476, size: PfGMBtnSize.medium },
-    { name: 'pfBtnTown', text: '小镇', x: 214, y: 372, size: PfGMBtnSize.medium, theme: PfGMBtnTheme.secondary },
-    { name: 'pfBtnAd', text: '广告任务', x: 214, y: 268, size: PfGMBtnSize.medium, theme: PfGMBtnTheme.warning },
-    { name: 'pfBtnSetting', text: '设置', x: 214, y: 164, size: PfGMBtnSize.medium, theme: PfGMBtnTheme.secondary },
+    { name: 'pfBtnBoard', text: '进入合成', x: 0, y: -550 },
+    { name: 'pfBtnTown', text: '小镇', x: -140, y: -430, size: PfGMBtnSize.medium, theme: PfGMBtnTheme.secondary },
+    { name: 'pfBtnScenery', text: '建设', x: 140, y: -430, size: PfGMBtnSize.medium },
+    { name: 'pfBtnSign', text: '签到', x: -210, y: 560, size: PfGMBtnSize.medium, theme: PfGMBtnTheme.secondary },
+    { name: 'pfBtnAd', text: '广告累计', x: -210, y: 460, size: PfGMBtnSize.medium, theme: PfGMBtnTheme.warning },
+    { name: 'pfBtnSetting', text: '设置', x: -210, y: 360, size: PfGMBtnSize.medium, theme: PfGMBtnTheme.secondary },
 ];
 
 type Piece = {
