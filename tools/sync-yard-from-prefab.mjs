@@ -84,6 +84,8 @@ for (const p of scenery.pieces) {
   p.scaleEach = n.scale;
   p.view = { x: n.x, y: 1280 - n.y, scale: n.scale };
   p.layer = n.layer;
+  // 锚点跟随预制体：预制体里挪锚点，json 同步，避免两边不一致
+  p.anchor = [n.ax, n.ay];
   // place 统一为 foot：所有件都用「锚点落在母图的哪一点」表达位置。
   // 区域地面的覆盖范围另外记在 masterBox，运行时不读，仅供核对。
   p.place = 'foot';
