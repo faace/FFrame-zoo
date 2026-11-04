@@ -11,6 +11,6 @@ alwaysApply: true
 - 脚本引用框架只写 `import { ... } from 'db://gmajor/index'`，不写 `'../gmajor'`。
 - `db://gmajor` 在这里是只读。要改框架，去 `FFrame/gmajor/` 改并提交到 FFrame；改了破坏项要升 `gm.version` 并写 `FFrame/CHANGELOG.md`。
 - 游戏代码在 `assets/game/`（`ScMain`、`config.ts`、`bundles/ZooHome` …）。
-- 策划文档在 `策划/`。`资源生成/` 是提示词、母图和脚本，Cocos 不读，已被 git 忽略。
+- 策划文档在 `策划/`，先读 `策划/README.md`。系列总策划在兄弟仓库 `FFrame-asset-line/docs/系列策划/`；提示词、母图和生成过程在 `FFrame-asset-line/scenes/动物园/`；通用物品在 `FFrame-asset-line/通用资源/物品生成/`。游戏只收已确认的导出成品。
 - 临时文件、测试代码、一次性脚本放 `del/`（已忽略，在 `assets/` 之外），不要散落在别处。
 - 动物园自己的业务约定（命名、策划取舍）写在本目录下的其他规则里；暂无。
