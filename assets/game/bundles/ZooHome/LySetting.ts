@@ -1,11 +1,14 @@
 import { _decorator } from 'cc';
+import { PfGMTitleSize } from 'db://gmajor/index';
 import { ZooLayer } from './ZooLayer';
 
 const { ccclass } = _decorator;
 
-/** 设置。内容挂 this.body；顶栏（标题条 + 关闭钮）由 ZooLayer 统一建 */
+/** 设置。内容挂 this.body；顶栏（标题条 + 关闭钮）由 ZooLayer 统一建。标题用小档，方便和中档对照 */
 @ccclass('LySetting')
 export class LySetting extends ZooLayer {
+    titleSize = PfGMTitleSize.small;
+
     protected onLayerInit(): void {
         this.setTitle('设置');
     }
