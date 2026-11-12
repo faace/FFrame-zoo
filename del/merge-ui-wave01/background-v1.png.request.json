@@ -1,0 +1,9 @@
+{
+  "url": "https://api-lb.cubence.ai/v1/images/edits",
+  "model": "gpt-image-2.5-flare",
+  "size": "1152x2048",
+  "background": "opaque",
+  "output_format": "png",
+  "reference": "../merge-wave01/wood-wave01-v2-aligned.png",
+  "prompt_file": "prompt-background-v1.txt"
+}

@@ -1,0 +1,1645 @@
+[
+  {
+    "review_id": "W01",
+    "source": "merge-wave05/wood-transparent-v3.png",
+    "source_sha256": "4f86e37b929f900ecb78ae453bfa149ab2b2400367b3037b722681c1a630ceb7",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "cell": [
+      0,
+      0
+    ],
+    "crop_box": [
+      0,
+      0,
+      314,
+      314
+    ],
+    "alpha_background_removed": false,
+    "disconnected_speck_pixels_removed": 17,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bounds_64": [
+      13,
+      12,
+      50,
+      57
+    ]
+  },
+  {
+    "review_id": "W02",
+    "source": "merge-wave05/wood-transparent-v3.png",
+    "source_sha256": "4f86e37b929f900ecb78ae453bfa149ab2b2400367b3037b722681c1a630ceb7",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "cell": [
+      0,
+      1
+    ],
+    "crop_box": [
+      314,
+      0,
+      627,
+      314
+    ],
+    "alpha_background_removed": false,
+    "disconnected_speck_pixels_removed": 31,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bounds_64": [
+      6,
+      7,
+      58,
+      61
+    ]
+  },
+  {
+    "review_id": "W03",
+    "source": "merge-wave05/wood-transparent-v3.png",
+    "source_sha256": "4f86e37b929f900ecb78ae453bfa149ab2b2400367b3037b722681c1a630ceb7",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "cell": [
+      0,
+      2
+    ],
+    "crop_box": [
+      627,
+      0,
+      940,
+      314
+    ],
+    "alpha_background_removed": false,
+    "disconnected_speck_pixels_removed": 2,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bounds_64": [
+      10,
+      11,
+      52,
+      59
+    ]
+  },
+  {
+    "review_id": "W04",
+    "source": "merge-wave05/wood-transparent-v3.png",
+    "source_sha256": "4f86e37b929f900ecb78ae453bfa149ab2b2400367b3037b722681c1a630ceb7",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "cell": [
+      0,
+      3
+    ],
+    "crop_box": [
+      940,
+      0,
+      1254,
+      314
+    ],
+    "alpha_background_removed": false,
+    "disconnected_speck_pixels_removed": 14,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bounds_64": [
+      2,
+      10,
+      59,
+      59
+    ]
+  },
+  {
+    "review_id": "W05",
+    "source": "merge-wave05/wood-transparent-v3.png",
+    "source_sha256": "4f86e37b929f900ecb78ae453bfa149ab2b2400367b3037b722681c1a630ceb7",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "cell": [
+      1,
+      0
+    ],
+    "crop_box": [
+      0,
+      314,
+      314,
+      627
+    ],
+    "alpha_background_removed": false,
+    "disconnected_speck_pixels_removed": 60,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bounds_64": [
+      3,
+      14,
+      60,
+      51
+    ]
+  },
+  {
+    "review_id": "W06",
+    "source": "merge-wave05/wood-transparent-v3.png",
+    "source_sha256": "4f86e37b929f900ecb78ae453bfa149ab2b2400367b3037b722681c1a630ceb7",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "cell": [
+      1,
+      1
+    ],
+    "crop_box": [
+      314,
+      314,
+      627,
+      627
+    ],
+    "alpha_background_removed": false,
+    "disconnected_speck_pixels_removed": 17,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bounds_64": [
+      5,
+      8,
+      58,
+      58
+    ]
+  },
+  {
+    "review_id": "W07",
+    "source": "merge-wave05/wood-transparent-v3.png",
+    "source_sha256": "4f86e37b929f900ecb78ae453bfa149ab2b2400367b3037b722681c1a630ceb7",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "cell": [
+      1,
+      2
+    ],
+    "crop_box": [
+      627,
+      314,
+      940,
+      627
+    ],
+    "alpha_background_removed": false,
+    "disconnected_speck_pixels_removed": 16,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bounds_64": [
+      3,
+      10,
+      61,
+      55
+    ]
+  },
+  {
+    "review_id": "GEN-W",
+    "source": "merge-wave05/wood-transparent-v3.png",
+    "source_sha256": "4f86e37b929f900ecb78ae453bfa149ab2b2400367b3037b722681c1a630ceb7",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "cell": [
+      1,
+      3
+    ],
+    "crop_box": [
+      940,
+      314,
+      1254,
+      627
+    ],
+    "alpha_background_removed": false,
+    "disconnected_speck_pixels_removed": 12,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bounds_64": [
+      2,
+      6,
+      61,
+      58
+    ]
+  },
+  {
+    "review_id": "T01",
+    "source": "merge-wave02/tools-plants-v1.png",
+    "source_sha256": "ec9de40da4802791158f3698a9a62dc7dcbd89b828a4e281beb8defebe067fc7",
+    "source_size": [
+      2048,
+      2048
+    ],
+    "cell": [
+      0,
+      0
+    ],
+    "crop_box": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "alpha_background_removed": true,
+    "disconnected_speck_pixels_removed": 18,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bounds_64": [
+      11,
+      10,
+      55,
+      57
+    ]
+  },
+  {
+    "review_id": "T02",
+    "source": "merge-wave02/tools-plants-v1.png",
+    "source_sha256": "ec9de40da4802791158f3698a9a62dc7dcbd89b828a4e281beb8defebe067fc7",
+    "source_size": [
+      2048,
+      2048
+    ],
+    "cell": [
+      0,
+      1
+    ],
+    "crop_box": [
+      512,
+      0,
+      1024,
+      512
+    ],
+    "alpha_background_removed": true,
+    "disconnected_speck_pixels_removed": 39,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bounds_64": [
+      10,
+      9,
+      55,
+      59
+    ]
+  },
+  {
+    "review_id": "T03",
+    "source": "merge-wave02/tools-plants-v1.png",
+    "source_sha256": "ec9de40da4802791158f3698a9a62dc7dcbd89b828a4e281beb8defebe067fc7",
+    "source_size": [
+      2048,
+      2048
+    ],
+    "cell": [
+      0,
+      2
+    ],
+    "crop_box": [
+      1024,
+      0,
+      1536,
+      512
+    ],
+    "alpha_background_removed": true,
+    "disconnected_speck_pixels_removed": 18,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bounds_64": [
+      8,
+      10,
+      55,
+      57
+    ]
+  },
+  {
+    "review_id": "T04",
+    "source": "merge-wave02/tools-plants-v1.png",
+    "source_sha256": "ec9de40da4802791158f3698a9a62dc7dcbd89b828a4e281beb8defebe067fc7",
+    "source_size": [
+      2048,
+      2048
+    ],
+    "cell": [
+      0,
+      3
+    ],
+    "crop_box": [
+      1536,
+      0,
+      2048,
+      512
+    ],
+    "alpha_background_removed": true,
+    "disconnected_speck_pixels_removed": 13,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bounds_64": [
+      7,
+      9,
+      56,
+      59
+    ]
+  },
+  {
+    "review_id": "T05",
+    "source": "merge-wave02/tools-plants-v1.png",
+    "source_sha256": "ec9de40da4802791158f3698a9a62dc7dcbd89b828a4e281beb8defebe067fc7",
+    "source_size": [
+      2048,
+      2048
+    ],
+    "cell": [
+      1,
+      0
+    ],
+    "crop_box": [
+      0,
+      512,
+      512,
+      1024
+    ],
+    "alpha_background_removed": true,
+    "disconnected_speck_pixels_removed": 41,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bounds_64": [
+      4,
+      7,
+      62,
+      52
+    ]
+  },
+  {
+    "review_id": "T06",
+    "source": "merge-wave02/tools-plants-v1.png",
+    "source_sha256": "ec9de40da4802791158f3698a9a62dc7dcbd89b828a4e281beb8defebe067fc7",
+    "source_size": [
+      2048,
+      2048
+    ],
+    "cell": [
+      1,
+      1
+    ],
+    "crop_box": [
+      512,
+      512,
+      1024,
+      1024
+    ],
+    "alpha_background_removed": true,
+    "disconnected_speck_pixels_removed": 14,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bounds_64": [
+      7,
+      7,
+      59,
+      57
+    ]
+  },
+  {
+    "review_id": "T07",
+    "source": "merge-wave02/tools-plants-v1.png",
+    "source_sha256": "ec9de40da4802791158f3698a9a62dc7dcbd89b828a4e281beb8defebe067fc7",
+    "source_size": [
+      2048,
+      2048
+    ],
+    "cell": [
+      1,
+      2
+    ],
+    "crop_box": [
+      1024,
+      512,
+      1536,
+      1024
+    ],
+    "alpha_background_removed": true,
+    "disconnected_speck_pixels_removed": 22,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bounds_64": [
+      5,
+      7,
+      61,
+      59
+    ]
+  },
+  {
+    "review_id": "T08",
+    "source": "merge-wave02/tools-plants-v1.png",
+    "source_sha256": "ec9de40da4802791158f3698a9a62dc7dcbd89b828a4e281beb8defebe067fc7",
+    "source_size": [
+      2048,
+      2048
+    ],
+    "cell": [
+      1,
+      3
+    ],
+    "crop_box": [
+      1536,
+      512,
+      2048,
+      1024
+    ],
+    "alpha_background_removed": true,
+    "disconnected_speck_pixels_removed": 88,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bounds_64": [
+      5,
+      7,
+      59,
+      57
+    ]
+  },
+  {
+    "review_id": "P01",
+    "source": "merge-wave02/tools-plants-v1.png",
+    "source_sha256": "ec9de40da4802791158f3698a9a62dc7dcbd89b828a4e281beb8defebe067fc7",
+    "source_size": [
+      2048,
+      2048
+    ],
+    "cell": [
+      2,
+      0
+    ],
+    "crop_box": [
+      0,
+      1024,
+      512,
+      1536
+    ],
+    "alpha_background_removed": true,
+    "disconnected_speck_pixels_removed": 8,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bounds_64": [
+      12,
+      15,
+      55,
+      50
+    ]
+  },
+  {
+    "review_id": "P02",
+    "source": "merge-wave02/tools-plants-v1.png",
+    "source_sha256": "ec9de40da4802791158f3698a9a62dc7dcbd89b828a4e281beb8defebe067fc7",
+    "source_size": [
+      2048,
+      2048
+    ],
+    "cell": [
+      2,
+      1
+    ],
+    "crop_box": [
+      512,
+      1024,
+      1024,
+      1536
+    ],
+    "alpha_background_removed": true,
+    "disconnected_speck_pixels_removed": 861,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bounds_64": [
+      8,
+      9,
+      58,
+      52
+    ]
+  },
+  {
+    "review_id": "P03",
+    "source": "merge-wave02/tools-plants-v1.png",
+    "source_sha256": "ec9de40da4802791158f3698a9a62dc7dcbd89b828a4e281beb8defebe067fc7",
+    "source_size": [
+      2048,
+      2048
+    ],
+    "cell": [
+      2,
+      2
+    ],
+    "crop_box": [
+      1024,
+      1024,
+      1536,
+      1536
+    ],
+    "alpha_background_removed": true,
+    "disconnected_speck_pixels_removed": 830,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bounds_64": [
+      8,
+      6,
+      58,
+      54
+    ]
+  },
+  {
+    "review_id": "P04",
+    "source": "merge-wave02/tools-plants-v1.png",
+    "source_sha256": "ec9de40da4802791158f3698a9a62dc7dcbd89b828a4e281beb8defebe067fc7",
+    "source_size": [
+      2048,
+      2048
+    ],
+    "cell": [
+      2,
+      3
+    ],
+    "crop_box": [
+      1536,
+      1024,
+      2048,
+      1536
+    ],
+    "alpha_background_removed": true,
+    "disconnected_speck_pixels_removed": 17,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bounds_64": [
+      7,
+      6,
+      58,
+      54
+    ]
+  },
+  {
+    "review_id": "P05",
+    "source": "merge-wave02/tools-plants-v1.png",
+    "source_sha256": "ec9de40da4802791158f3698a9a62dc7dcbd89b828a4e281beb8defebe067fc7",
+    "source_size": [
+      2048,
+      2048
+    ],
+    "cell": [
+      3,
+      0
+    ],
+    "crop_box": [
+      0,
+      1536,
+      512,
+      2048
+    ],
+    "alpha_background_removed": true,
+    "disconnected_speck_pixels_removed": 17,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bounds_64": [
+      4,
+      2,
+      63,
+      52
+    ]
+  },
+  {
+    "review_id": "P06",
+    "source": "merge-wave02/tools-plants-v1.png",
+    "source_sha256": "ec9de40da4802791158f3698a9a62dc7dcbd89b828a4e281beb8defebe067fc7",
+    "source_size": [
+      2048,
+      2048
+    ],
+    "cell": [
+      3,
+      1
+    ],
+    "crop_box": [
+      512,
+      1536,
+      1024,
+      2048
+    ],
+    "alpha_background_removed": true,
+    "disconnected_speck_pixels_removed": 14,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bounds_64": [
+      5,
+      0,
+      61,
+      55
+    ]
+  },
+  {
+    "review_id": "P07",
+    "source": "merge-wave02/tools-plants-v1.png",
+    "source_sha256": "ec9de40da4802791158f3698a9a62dc7dcbd89b828a4e281beb8defebe067fc7",
+    "source_size": [
+      2048,
+      2048
+    ],
+    "cell": [
+      3,
+      2
+    ],
+    "crop_box": [
+      1024,
+      1536,
+      1536,
+      2048
+    ],
+    "alpha_background_removed": true,
+    "disconnected_speck_pixels_removed": 14,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bounds_64": [
+      5,
+      0,
+      62,
+      53
+    ]
+  },
+  {
+    "review_id": "GEN-T",
+    "source": "merge-wave02/tools-plants-v1.png",
+    "source_sha256": "ec9de40da4802791158f3698a9a62dc7dcbd89b828a4e281beb8defebe067fc7",
+    "source_size": [
+      2048,
+      2048
+    ],
+    "cell": [
+      3,
+      3
+    ],
+    "crop_box": [
+      1536,
+      1536,
+      2048,
+      2048
+    ],
+    "alpha_background_removed": true,
+    "disconnected_speck_pixels_removed": 13,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bounds_64": [
+      6,
+      6,
+      59,
+      50
+    ]
+  },
+  {
+    "review_id": "A01",
+    "source": "merge-wave03/animals-cleaning-v1.png",
+    "source_sha256": "33074b534c7460572dc6b8d455176f6e855fb5aefc2a78b669a1b443798c308b",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "cell": [
+      0,
+      0
+    ],
+    "crop_box": [
+      0,
+      0,
+      314,
+      314
+    ],
+    "alpha_background_removed": false,
+    "disconnected_speck_pixels_removed": 38,
+    "alpha_extrema": [
+      0,
+      253
+    ],
+    "visible_bounds_64": [
+      16,
+      4,
+      59,
+      63
+    ]
+  },
+  {
+    "review_id": "A02",
+    "source": "merge-wave03/animals-cleaning-v1.png",
+    "source_sha256": "33074b534c7460572dc6b8d455176f6e855fb5aefc2a78b669a1b443798c308b",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "cell": [
+      0,
+      1
+    ],
+    "crop_box": [
+      314,
+      0,
+      627,
+      314
+    ],
+    "alpha_background_removed": false,
+    "disconnected_speck_pixels_removed": 103,
+    "alpha_extrema": [
+      0,
+      253
+    ],
+    "visible_bounds_64": [
+      8,
+      7,
+      61,
+      63
+    ]
+  },
+  {
+    "review_id": "A03",
+    "source": "merge-wave03/animals-cleaning-v1.png",
+    "source_sha256": "33074b534c7460572dc6b8d455176f6e855fb5aefc2a78b669a1b443798c308b",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "cell": [
+      0,
+      2
+    ],
+    "crop_box": [
+      627,
+      0,
+      940,
+      314
+    ],
+    "alpha_background_removed": false,
+    "disconnected_speck_pixels_removed": 179,
+    "alpha_extrema": [
+      0,
+      253
+    ],
+    "visible_bounds_64": [
+      3,
+      6,
+      62,
+      63
+    ]
+  },
+  {
+    "review_id": "A04",
+    "source": "merge-wave03/animals-cleaning-v1.png",
+    "source_sha256": "33074b534c7460572dc6b8d455176f6e855fb5aefc2a78b669a1b443798c308b",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "cell": [
+      0,
+      3
+    ],
+    "crop_box": [
+      940,
+      0,
+      1254,
+      314
+    ],
+    "alpha_background_removed": false,
+    "disconnected_speck_pixels_removed": 39,
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "visible_bounds_64": [
+      1,
+      6,
+      61,
+      63
+    ]
+  },
+  {
+    "review_id": "A05",
+    "source": "merge-wave03/animals-cleaning-v1.png",
+    "source_sha256": "33074b534c7460572dc6b8d455176f6e855fb5aefc2a78b669a1b443798c308b",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "cell": [
+      1,
+      0
+    ],
+    "crop_box": [
+      0,
+      314,
+      314,
+      627
+    ],
+    "alpha_background_removed": false,
+    "disconnected_speck_pixels_removed": 33,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bounds_64": [
+      13,
+      7,
+      60,
+      61
+    ]
+  },
+  {
+    "review_id": "A06",
+    "source": "merge-wave03/animals-cleaning-v1.png",
+    "source_sha256": "33074b534c7460572dc6b8d455176f6e855fb5aefc2a78b669a1b443798c308b",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "cell": [
+      1,
+      1
+    ],
+    "crop_box": [
+      314,
+      314,
+      627,
+      627
+    ],
+    "alpha_background_removed": false,
+    "disconnected_speck_pixels_removed": 161,
+    "alpha_extrema": [
+      0,
+      253
+    ],
+    "visible_bounds_64": [
+      14,
+      2,
+      61,
+      62
+    ]
+  },
+  {
+    "review_id": "A07",
+    "source": "merge-wave03/animals-cleaning-v1.png",
+    "source_sha256": "33074b534c7460572dc6b8d455176f6e855fb5aefc2a78b669a1b443798c308b",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "cell": [
+      1,
+      2
+    ],
+    "crop_box": [
+      627,
+      314,
+      940,
+      627
+    ],
+    "alpha_background_removed": false,
+    "disconnected_speck_pixels_removed": 55,
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "visible_bounds_64": [
+      3,
+      7,
+      63,
+      62
+    ]
+  },
+  {
+    "review_id": "C01",
+    "source": "merge-wave03/animals-cleaning-v1.png",
+    "source_sha256": "33074b534c7460572dc6b8d455176f6e855fb5aefc2a78b669a1b443798c308b",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "cell": [
+      1,
+      3
+    ],
+    "crop_box": [
+      940,
+      314,
+      1254,
+      627
+    ],
+    "alpha_background_removed": false,
+    "disconnected_speck_pixels_removed": 25,
+    "alpha_extrema": [
+      0,
+      253
+    ],
+    "visible_bounds_64": [
+      4,
+      12,
+      58,
+      57
+    ]
+  },
+  {
+    "review_id": "C02",
+    "source": "merge-wave03/animals-cleaning-v1.png",
+    "source_sha256": "33074b534c7460572dc6b8d455176f6e855fb5aefc2a78b669a1b443798c308b",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "cell": [
+      2,
+      0
+    ],
+    "crop_box": [
+      0,
+      627,
+      314,
+      940
+    ],
+    "alpha_background_removed": false,
+    "disconnected_speck_pixels_removed": 1714,
+    "alpha_extrema": [
+      0,
+      253
+    ],
+    "visible_bounds_64": [
+      5,
+      7,
+      63,
+      53
+    ]
+  },
+  {
+    "review_id": "C03",
+    "source": "merge-wave03/animals-cleaning-v1.png",
+    "source_sha256": "33074b534c7460572dc6b8d455176f6e855fb5aefc2a78b669a1b443798c308b",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "cell": [
+      2,
+      1
+    ],
+    "crop_box": [
+      314,
+      627,
+      627,
+      940
+    ],
+    "alpha_background_removed": false,
+    "disconnected_speck_pixels_removed": 343,
+    "alpha_extrema": [
+      0,
+      253
+    ],
+    "visible_bounds_64": [
+      18,
+      0,
+      51,
+      59
+    ]
+  },
+  {
+    "review_id": "C04",
+    "source": "merge-wave03/animals-cleaning-v1.png",
+    "source_sha256": "33074b534c7460572dc6b8d455176f6e855fb5aefc2a78b669a1b443798c308b",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "cell": [
+      2,
+      2
+    ],
+    "crop_box": [
+      627,
+      627,
+      940,
+      940
+    ],
+    "alpha_background_removed": false,
+    "disconnected_speck_pixels_removed": 10,
+    "alpha_extrema": [
+      0,
+      253
+    ],
+    "visible_bounds_64": [
+      7,
+      2,
+      57,
+      60
+    ]
+  },
+  {
+    "review_id": "C05",
+    "source": "merge-wave03/animals-cleaning-v1.png",
+    "source_sha256": "33074b534c7460572dc6b8d455176f6e855fb5aefc2a78b669a1b443798c308b",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "cell": [
+      2,
+      3
+    ],
+    "crop_box": [
+      940,
+      627,
+      1254,
+      940
+    ],
+    "alpha_background_removed": false,
+    "disconnected_speck_pixels_removed": 33,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bounds_64": [
+      1,
+      2,
+      61,
+      59
+    ]
+  },
+  {
+    "review_id": "C06",
+    "source": "merge-wave03/animals-cleaning-v1.png",
+    "source_sha256": "33074b534c7460572dc6b8d455176f6e855fb5aefc2a78b669a1b443798c308b",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "cell": [
+      3,
+      0
+    ],
+    "crop_box": [
+      0,
+      940,
+      314,
+      1254
+    ],
+    "alpha_background_removed": false,
+    "disconnected_speck_pixels_removed": 37,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bounds_64": [
+      6,
+      0,
+      57,
+      59
+    ]
+  },
+  {
+    "review_id": "GEN-A",
+    "source": "merge-wave03/animals-cleaning-v1.png",
+    "source_sha256": "33074b534c7460572dc6b8d455176f6e855fb5aefc2a78b669a1b443798c308b",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "cell": [
+      3,
+      1
+    ],
+    "crop_box": [
+      314,
+      940,
+      627,
+      1254
+    ],
+    "alpha_background_removed": false,
+    "disconnected_speck_pixels_removed": 38,
+    "alpha_extrema": [
+      0,
+      253
+    ],
+    "visible_bounds_64": [
+      8,
+      0,
+      62,
+      58
+    ]
+  },
+  {
+    "review_id": "GEN-P",
+    "source": "merge-wave03/animals-cleaning-v1.png",
+    "source_sha256": "33074b534c7460572dc6b8d455176f6e855fb5aefc2a78b669a1b443798c308b",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "cell": [
+      3,
+      2
+    ],
+    "crop_box": [
+      627,
+      940,
+      940,
+      1254
+    ],
+    "alpha_background_removed": false,
+    "disconnected_speck_pixels_removed": 37,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bounds_64": [
+      6,
+      2,
+      63,
+      55
+    ]
+  },
+  {
+    "review_id": "GEN-S",
+    "source": "merge-wave03/animals-cleaning-v1.png",
+    "source_sha256": "33074b534c7460572dc6b8d455176f6e855fb5aefc2a78b669a1b443798c308b",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "cell": [
+      3,
+      3
+    ],
+    "crop_box": [
+      940,
+      940,
+      1254,
+      1254
+    ],
+    "alpha_background_removed": false,
+    "disconnected_speck_pixels_removed": 219,
+    "alpha_extrema": [
+      0,
+      253
+    ],
+    "visible_bounds_64": [
+      8,
+      2,
+      58,
+      55
+    ]
+  },
+  {
+    "review_id": "G01",
+    "source": "merge-wave04/guides-food-v1.png",
+    "source_sha256": "e200ee1773264fa1d21fe08c6c59ddf89624fe951858da8736b874e57decf68f",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "cell": [
+      0,
+      0
+    ],
+    "crop_box": [
+      0,
+      0,
+      314,
+      314
+    ],
+    "alpha_background_removed": false,
+    "disconnected_speck_pixels_removed": 59,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bounds_64": [
+      6,
+      7,
+      62,
+      63
+    ]
+  },
+  {
+    "review_id": "G02",
+    "source": "merge-wave04/guides-food-v1.png",
+    "source_sha256": "e200ee1773264fa1d21fe08c6c59ddf89624fe951858da8736b874e57decf68f",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "cell": [
+      0,
+      1
+    ],
+    "crop_box": [
+      314,
+      0,
+      627,
+      314
+    ],
+    "alpha_background_removed": false,
+    "disconnected_speck_pixels_removed": 34,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bounds_64": [
+      1,
+      7,
+      64,
+      59
+    ]
+  },
+  {
+    "review_id": "G03",
+    "source": "merge-wave04/guides-food-v1.png",
+    "source_sha256": "e200ee1773264fa1d21fe08c6c59ddf89624fe951858da8736b874e57decf68f",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "cell": [
+      0,
+      2
+    ],
+    "crop_box": [
+      627,
+      0,
+      940,
+      314
+    ],
+    "alpha_background_removed": false,
+    "disconnected_speck_pixels_removed": 78,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bounds_64": [
+      7,
+      9,
+      63,
+      62
+    ]
+  },
+  {
+    "review_id": "G04",
+    "source": "merge-wave04/guides-food-v1.png",
+    "source_sha256": "e200ee1773264fa1d21fe08c6c59ddf89624fe951858da8736b874e57decf68f",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "cell": [
+      0,
+      3
+    ],
+    "crop_box": [
+      940,
+      0,
+      1254,
+      314
+    ],
+    "alpha_background_removed": false,
+    "disconnected_speck_pixels_removed": 30,
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "visible_bounds_64": [
+      8,
+      6,
+      58,
+      63
+    ]
+  },
+  {
+    "review_id": "G05",
+    "source": "merge-wave04/guides-food-v1.png",
+    "source_sha256": "e200ee1773264fa1d21fe08c6c59ddf89624fe951858da8736b874e57decf68f",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "cell": [
+      1,
+      0
+    ],
+    "crop_box": [
+      0,
+      314,
+      314,
+      627
+    ],
+    "alpha_background_removed": false,
+    "disconnected_speck_pixels_removed": 57,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bounds_64": [
+      5,
+      2,
+      63,
+      62
+    ]
+  },
+  {
+    "review_id": "G06",
+    "source": "merge-wave04/guides-food-v1.png",
+    "source_sha256": "e200ee1773264fa1d21fe08c6c59ddf89624fe951858da8736b874e57decf68f",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "cell": [
+      1,
+      1
+    ],
+    "crop_box": [
+      314,
+      314,
+      627,
+      627
+    ],
+    "alpha_background_removed": false,
+    "disconnected_speck_pixels_removed": 175,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bounds_64": [
+      4,
+      5,
+      64,
+      58
+    ]
+  },
+  {
+    "review_id": "F01",
+    "source": "merge-wave04/guides-food-v1.png",
+    "source_sha256": "e200ee1773264fa1d21fe08c6c59ddf89624fe951858da8736b874e57decf68f",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "cell": [
+      1,
+      2
+    ],
+    "crop_box": [
+      627,
+      314,
+      940,
+      627
+    ],
+    "alpha_background_removed": false,
+    "disconnected_speck_pixels_removed": 257,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bounds_64": [
+      10,
+      8,
+      57,
+      58
+    ]
+  },
+  {
+    "review_id": "F02",
+    "source": "merge-wave04/guides-food-v1.png",
+    "source_sha256": "e200ee1773264fa1d21fe08c6c59ddf89624fe951858da8736b874e57decf68f",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "cell": [
+      1,
+      3
+    ],
+    "crop_box": [
+      940,
+      314,
+      1254,
+      627
+    ],
+    "alpha_background_removed": false,
+    "disconnected_speck_pixels_removed": 52,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bounds_64": [
+      8,
+      5,
+      58,
+      58
+    ]
+  },
+  {
+    "review_id": "F03",
+    "source": "merge-wave04/guides-food-v1.png",
+    "source_sha256": "e200ee1773264fa1d21fe08c6c59ddf89624fe951858da8736b874e57decf68f",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "cell": [
+      2,
+      0
+    ],
+    "crop_box": [
+      0,
+      627,
+      314,
+      940
+    ],
+    "alpha_background_removed": false,
+    "disconnected_speck_pixels_removed": 78,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bounds_64": [
+      3,
+      3,
+      63,
+      61
+    ]
+  },
+  {
+    "review_id": "F04",
+    "source": "merge-wave04/guides-food-v1.png",
+    "source_sha256": "e200ee1773264fa1d21fe08c6c59ddf89624fe951858da8736b874e57decf68f",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "cell": [
+      2,
+      1
+    ],
+    "crop_box": [
+      314,
+      627,
+      627,
+      940
+    ],
+    "alpha_background_removed": false,
+    "disconnected_speck_pixels_removed": 30,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bounds_64": [
+      4,
+      0,
+      64,
+      60
+    ]
+  },
+  {
+    "review_id": "F05",
+    "source": "merge-wave04/guides-food-v1.png",
+    "source_sha256": "e200ee1773264fa1d21fe08c6c59ddf89624fe951858da8736b874e57decf68f",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "cell": [
+      2,
+      2
+    ],
+    "crop_box": [
+      627,
+      627,
+      940,
+      940
+    ],
+    "alpha_background_removed": false,
+    "disconnected_speck_pixels_removed": 165,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bounds_64": [
+      3,
+      3,
+      63,
+      56
+    ]
+  },
+  {
+    "review_id": "F06",
+    "source": "merge-wave04/guides-food-v1.png",
+    "source_sha256": "e200ee1773264fa1d21fe08c6c59ddf89624fe951858da8736b874e57decf68f",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "cell": [
+      2,
+      3
+    ],
+    "crop_box": [
+      940,
+      627,
+      1254,
+      940
+    ],
+    "alpha_background_removed": false,
+    "disconnected_speck_pixels_removed": 11,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bounds_64": [
+      2,
+      1,
+      61,
+      60
+    ]
+  },
+  {
+    "review_id": "GEN-F",
+    "source": "merge-wave04/guides-food-v1.png",
+    "source_sha256": "e200ee1773264fa1d21fe08c6c59ddf89624fe951858da8736b874e57decf68f",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "cell": [
+      3,
+      0
+    ],
+    "crop_box": [
+      0,
+      940,
+      314,
+      1254
+    ],
+    "alpha_background_removed": false,
+    "disconnected_speck_pixels_removed": 14,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visible_bounds_64": [
+      4,
+      2,
+      63,
+      58
+    ]
+  }
+]

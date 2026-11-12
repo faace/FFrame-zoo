@@ -1,0 +1,52 @@
+{
+  "background": {
+    "size": [
+      941,
+      1672
+    ],
+    "alpha_zero": 0,
+    "alpha_partial": 0,
+    "alpha_opaque": 1573352,
+    "alpha_extrema": [
+      255,
+      255
+    ],
+    "center_rgba": [
+      166,
+      217,
+      86,
+      255
+    ],
+    "visible_bounds": [
+      0,
+      0,
+      941,
+      1672
+    ]
+  },
+  "board": {
+    "size": [
+      1108,
+      1419
+    ],
+    "alpha_zero": 580698,
+    "alpha_partial": 990506,
+    "alpha_opaque": 1048,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "center_rgba": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "visible_bounds": [
+      25,
+      37,
+      1092,
+      1387
+    ]
+  }
+}
