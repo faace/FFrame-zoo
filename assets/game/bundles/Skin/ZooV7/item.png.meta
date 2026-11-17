@@ -2,7 +2,7 @@
   "ver": "1.0.27",
   "importer": "image",
   "imported": true,
-  "uuid": "9795a873-f410-422d-8bf6-2067ee1b5457",
+  "uuid": "ccdff540-13be-481c-a1a1-98b4c4743cbc",
   "files": [
     ".json",
     ".png"
@@ -11,7 +11,7 @@
     "6c48a": {
       "ver": "1.0.22",
       "importer": "texture",
-      "uuid": "9795a873-f410-422d-8bf6-2067ee1b5457@6c48a",
+      "uuid": "ccdff540-13be-481c-a1a1-98b4c4743cbc@6c48a",
       "imported": true,
       "files": [
         ".json"
@@ -26,17 +26,17 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "9795a873-f410-422d-8bf6-2067ee1b5457",
+        "imageUuidOrDatabaseUri": "ccdff540-13be-481c-a1a1-98b4c4743cbc",
         "visible": false
       },
-      "displayName": "icon_gold",
+      "displayName": "item",
       "id": "6c48a",
       "name": "texture"
     },
     "f9941": {
       "ver": "1.0.12",
       "importer": "sprite-frame",
-      "uuid": "9795a873-f410-422d-8bf6-2067ee1b5457@f9941",
+      "uuid": "ccdff540-13be-481c-a1a1-98b4c4743cbc@f9941",
       "imported": true,
       "files": [
         ".json"
@@ -50,34 +50,34 @@
         "offsetY": 0,
         "trimX": 0,
         "trimY": 0,
-        "width": 48,
-        "height": 48,
-        "rawWidth": 48,
-        "rawHeight": 48,
+        "width": 1024,
+        "height": 1024,
+        "rawWidth": 1024,
+        "rawHeight": 1024,
         "borderTop": 0,
         "borderBottom": 0,
         "borderLeft": 0,
         "borderRight": 0,
-        "packable": true,
+        "packable": false,
         "pixelsToUnit": 100,
         "pivotX": 0.5,
         "pivotY": 0.5,
         "meshType": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "9795a873-f410-422d-8bf6-2067ee1b5457@6c48a",
+        "imageUuidOrDatabaseUri": "ccdff540-13be-481c-a1a1-98b4c4743cbc@6c48a",
         "vertices": {
           "rawPosition": [
-            -24,
-            -24,
+            -512,
+            -512,
             0,
-            24,
-            -24,
+            512,
+            -512,
             0,
-            -24,
-            24,
+            -512,
+            512,
             0,
-            24,
-            24,
+            512,
+            512,
             0
           ],
           "indexes": [
@@ -90,12 +90,12 @@
           ],
           "uv": [
             0,
-            48,
-            48,
-            48,
+            1024,
+            1024,
+            1024,
             0,
             0,
-            48,
+            1024,
             0
           ],
           "nuv": [
@@ -109,19 +109,19 @@
             1
           ],
           "minPos": [
-            -24,
-            -24,
+            -512,
+            -512,
             0
           ],
           "maxPos": [
-            24,
-            24,
+            512,
+            512,
             0
           ]
         },
         "atlasUuid": ""
       },
-      "displayName": "icon_gold",
+      "displayName": "item",
       "id": "f9941",
       "name": "spriteFrame"
     }
@@ -130,6 +130,6 @@
     "type": "sprite-frame",
     "hasAlpha": true,
     "fixAlphaTransparencyArtifacts": false,
-    "redirect": "9795a873-f410-422d-8bf6-2067ee1b5457@6c48a"
+    "redirect": "ccdff540-13be-481c-a1a1-98b4c4743cbc@6c48a"
   }
 }
