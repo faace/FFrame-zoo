@@ -11,7 +11,7 @@ const DB = 'db://assets/game/bundles/ZooHome';
 const BTN_PREFAB = 'b8d4f2c1-5a3b-4e9f-8d22-7c6b9f3e5a81'; // gmajor/prefabs/PfGMBtn.prefab（Bundle GMUI）
 const RETRY = 30; // 编辑器首次导入图之前多等几轮
 
-type HomeBtnName = 'pfBtnBoard' | 'pfBtnSign' | 'pfBtnScenery' | 'pfBtnTown' | 'pfBtnAd' | 'pfBtnSetting';
+type HomeBtnName = 'pfBtnBoard' | 'pfBtnSign' | 'pfBtnScenery' | 'pfBtnTown' | 'pfBtnAd' | 'pfBtnSetting' | 'pfBtnAlert';
 
 type HomeBtn = {
     name: HomeBtnName;
@@ -33,6 +33,7 @@ const HOME_BTNS: HomeBtn[] = [
     { name: 'pfBtnSign', text: '签到', x: -210, y: 560, size: PfGMBtnSize.medium, theme: PfGMBtnTheme.secondary },
     { name: 'pfBtnAd', text: '广告累计', x: -210, y: 460, size: PfGMBtnSize.medium, theme: PfGMBtnTheme.warning },
     { name: 'pfBtnSetting', text: '设置', x: -210, y: 360, size: PfGMBtnSize.medium, theme: PfGMBtnTheme.secondary },
+    { name: 'pfBtnAlert', text: '确认框', x: -210, y: 260, size: PfGMBtnSize.medium, theme: PfGMBtnTheme.secondary }, // 验收 gu.alert，测完可留
 ];
 
 /** 按钮 → 弹窗。没列出的按钮暂时空回调 */
@@ -217,7 +218,7 @@ function queryUuid(url: string, done: (uuid: string | null) => void): void {
     );
 }
 
-/** 园子。开场背景和 place 有值的贴纸按 scenery.json 的 cocos、anchor 摆。place 为空的不摆。六个入口先能点，回调留空 */
+/** 园子。开场背景和 place 有值的贴纸按 scenery.json 的 cocos、anchor 摆。place 为空的不摆。入口能点；确认框弹出 gu.alert */
 @ccclass('ScZooHome')
 @executeInEditMode(true)
 export class ScZooHome extends GMScene {
@@ -229,6 +230,7 @@ export class ScZooHome extends GMScene {
     private pfBtnTown: Node | null = null; // 小镇
     private pfBtnAd: Node | null = null; // 广告任务
     private pfBtnSetting: Node | null = null; // 设置
+    private pfBtnAlert: Node | null = null; // 确认框验收
     private hud: HomeHudView | null = null;
 
     onInit(): void {
@@ -286,6 +288,14 @@ export class ScZooHome extends GMScene {
             if (!editing) {
                 const layer = BTN_LAYER[spec.name];
                 gu.addClick(node, () => {
+                    if (spec.name === 'pfBtnAlert') {
+                        gu.alert({
+                            content: '确认框验收：看标题、正文、确定、取消和关闭。',
+                            ok: { text: '确定', cb: () => console.info('[ScZooHome] alert 确定') },
+                            cancel: { text: '取消', cb: () => console.info('[ScZooHome] alert 取消') },
+                        });
+                        return;
+                    }
                     if (!layer) return;
                     gu.showLayer(layer, { bundle: 'ZooHome' }, (err: Error | null) => {
                         if (err) console.error('[ScZooHome] 打开弹窗失败', layer, err.message);

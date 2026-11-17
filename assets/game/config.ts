@@ -4,6 +4,6 @@ export const config = {
     version: { app: '0.1.0', gmajor: '0.10.2' }, // app 版本；gmajor = 按哪个框架版本写的
     boot: [], // 常驻以后再绑
     entry: { web: 'ZooHome' }, // role → 入口包
-    alert: { bundle: 'ZooHome', prefab: 'LyAlert' }, // 确认框以后再做，开机不预载
+    alert: { bundle: 'ZooHome', prefab: 'LyAlert' }, // 确认框 ZooHome/LyAlert，ZooHomeEntry.onBind 预载
     skinTheme: 'ZooV7', // bundles/Skin 下有 ctrl.plist 的主题目录
 };
