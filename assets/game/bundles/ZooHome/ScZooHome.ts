@@ -288,6 +288,12 @@ export class ScZooHome extends GMScene {
             if (!editing) {
                 const layer = BTN_LAYER[spec.name];
                 gu.addClick(node, () => {
+                    if (spec.name === 'pfBtnBoard') {
+                        gu.openScene('Merge/ScMerge', { bundle: 'ZooHome' }, (err: Error | null) => {
+                            if (err) console.error('[ScZooHome] 打开合成界面失败', err);
+                        });
+                        return;
+                    }
                     if (spec.name === 'pfBtnAlert') {
                         gu.alert({
                             content: '确认框验收：看标题、正文、确定、取消和关闭。',
